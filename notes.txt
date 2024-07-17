@@ -1,0 +1,19 @@
+setup project and accept all default options
+    npm init -y
+
+Setup Typescript
+    npm install -D typescript
+
+ts-node
+    npm install -D ts-node
+
+nodemon keeps project running during all changes
+    npm install -D nodemon
+
+configure typescript
+    create tsconfig.json
+            "include": ["src/**/*"]: include all files in the src folder, all folders in src folder, and all files there too
+
+configure nodemon:
+    create nodemon.json
+
