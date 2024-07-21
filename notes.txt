@@ -17,3 +17,25 @@ configure typescript
 configure nodemon:
     create nodemon.json
 
+npm start
+
+setup Express server in index.ts
+
+npm i express body-parser cookie-parser compression cors
+
+install their types: npm i -D @types/express @types/body-parser @types/cookie-parser @types/compression @types/cors
+
+connect to mongodb
+
+mongoose is a javascript library that creates a connection between mongodb and the node.js jacascript runtime env
+npm install mongoose
+
+npm i -D @types/mongoose
+
+users schema and user model: users.ts
+    select false to make sure that anytime we use the controller to fetch the user we want to avoid fetching ac object by accident
+    dont want to fetch all users and provide entire api with auth  data
+
+authentication helpers to encrypt password or create random tokens
+
+sha256 algorithm
