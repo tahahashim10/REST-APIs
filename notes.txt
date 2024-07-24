@@ -39,3 +39,6 @@ users schema and user model: users.ts
 authentication helpers to encrypt password or create random tokens
 
 sha256 algorithm
+
+npm i lodash
+npm i -D @types/loadash
